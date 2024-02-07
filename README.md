@@ -4,6 +4,14 @@
 ===============================Jenkins Installation==================================
 https://www.jenkins.io/doc/book/installing/linux/
 https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/
+
+**If the below commands are not executing, go with the above links**
+
+
+**JavaInstallation**
+$ sudo apt install fontconfig openjdk-17-jre
+$ java --version
+
 $ sudo yum update –y
 sudo wget -O /etc/yum.repos.d/jenkins.repo \
     https://pkg.jenkins.io/redhat-stable/jenkins.repo

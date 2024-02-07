@@ -26,6 +26,16 @@ $ sudo systemctl start jenkins        //Start Jenkins as a service
 $ java -version
 $ javac -version
 $ systemctl status jenkins
+===============================To change host name==================================
+Like this **ubuntu@ip-JENKINS-SERVER:~$**
+
+$ sudo su
+$ hostname JENKINS-SERVER
+$ cd /etc
+$ vim hostname [opening the file here to change hostname]
+save the file and restart the machine
+
+sudo init or sudo reboot
 ===============================Install and Configure Maven==================================
 https://maven.apache.org/install.html
 Copy the download link from https://maven.apache.org/download.cgi
